@@ -1,7 +1,7 @@
 state = Numeric.new
-puts "2"
-puts "3"
-(4..15).each do
+print "2\n"
+print "3\n"
+(4..30).each do
      |i|
       (2..(Math.sqrt(i).ceil)).each do
      |thing|
@@ -11,7 +11,7 @@ puts "3"
        break
      end
      end
-     puts "#{i} " unless (state == 0)
+     print "#{i}\n" unless (state == 0)
 
 end 
 exit
