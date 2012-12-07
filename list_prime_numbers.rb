@@ -1,7 +1,7 @@
 state = Numeric.new
 print "2\n"
 print "3\n"
-(4..30).each do
+(4..15).each do
      |i|
       (2..(Math.sqrt(i).ceil)).each do
      |thing|
