@@ -13,4 +13,4 @@ while true
         n += 2 
 end
  
-puts "The answer is #{n}." 
+puts "The answer is: #{n}." 
